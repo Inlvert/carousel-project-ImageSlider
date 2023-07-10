@@ -1,0 +1,43 @@
+.boxStyle {
+  text-align: center;
+  position: relative;
+}
+
+.imgStyle {
+  margin-top: 100PX;
+  width: 400px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.buttonStyle {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 10px;
+  border-radius: 50%;
+  background-color: #c569ff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.buttonStyle:hover {
+  background-color: #8eff48;
+}
+
+.leftButton {
+  left: 200px;
+}
+
+.rightButton {
+  right: 200px;
+}
+
+.green{
+  background-color: #8eff48;
+}
+
+.red{
+  background-color: red;
+}
